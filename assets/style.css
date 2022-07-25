@@ -8,9 +8,37 @@ body {
 
 }
 
+#logo {
+    float: left;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+/* navigation links */
+
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#nav-menu, #logo {
+    line-height: 75px;
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+
+/* hero image */
+
 #hero-outer {
     height: 600px;
     width: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 
@@ -21,6 +49,4 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-/* navigation links */
 
