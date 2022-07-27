@@ -9,8 +9,15 @@
 body {
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 400;
+    color: #3a3a3a;
     background-color: #DBD1C2;
 
+}
+
+h1, h2 {
+    
+    text-transform: uppercase;
+    color: #252525;
 }
 
 #logo {
@@ -25,8 +32,6 @@ body {
 #nav-menu {
     font-size: 110%;
     letter-spacing: 4px;
-
-
 }
 
 #nav-menu,
@@ -39,6 +44,19 @@ body {
     list-style-type: none;
     margin-right: 30px;
 
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* hero image */
