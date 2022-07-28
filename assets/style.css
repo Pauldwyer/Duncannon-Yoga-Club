@@ -87,3 +87,37 @@ h1, h2 {
     margin-right: auto;
     width: 400px;
 }
+
+
+
+
+/* footer */
+
+
+#footer-section {
+    background-color: #E1C6A5;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+#footer-section-left {
+    
+    width: 100%;
+    height: 150px;
+}
+
+#footer-section-center {
+    
+    width: 100%;
+    height: 150px;
+  
+}
+
+#footer-section-right {
+  
+    width: 100%;
+    height: 150px;
+  
+}
