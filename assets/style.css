@@ -30,6 +30,12 @@ h1, h2 {
     
 }
 
+.text-center {
+    text-align: center;
+    font-size: 280%;
+    text-transform: capitalize;
+}
+
 /* navigation links */
 
 #nav-menu {
@@ -62,7 +68,7 @@ h1, h2 {
     border-bottom: 1px solid #000000;
 }
 
-/* hero image */
+/* hero image and cover text */
 
 #hero-outer {
     height: 600px;
@@ -98,18 +104,21 @@ h1, h2 {
 
 /* our story */
 
+/*
 #our-story {
     
     margin-left: auto;
     margin-right: auto;
     width: 400px;
 }
+*/
 
-#what-is-yoga {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
+#types-youtube {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
 
 
 /* footer */
